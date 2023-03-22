@@ -24,7 +24,10 @@ def jogar():
                     print (f"Voce precisou de {tent} tentativas para acertar " )
                     tent = 0
                     computador = randint(0,10)
-                    continuar= str(input("Deseja continuar [S] ou [N]: "))
+                    while True:
+                        continuar= str(input("Deseja continuar [S] ou [N]: ")).upper()
+                        if continuar in 'SN':
+                            break
                     if continuar in 'Nn':
                         break
         
@@ -46,7 +49,10 @@ def jogar():
                     print (f"Voce precisou de {tent} tentativas para acertar " )
                     tent = 0
                     computador = randint(0,20)
-                    continuar= str(input("Deseja continuar [S] ou [N]: "))
+                    while True:
+                        continuar= str(input("Deseja continuar [S] ou [N]: ")).upper()
+                        if continuar in 'SN':
+                            break
                     if continuar in 'Nn':
                         break
         
@@ -68,7 +74,10 @@ def jogar():
                     print (f"Voce precisou de {tent} tentativas para acertar " )
                     tent = 0
                     computador = randint(0,50)
-                    continuar= str(input("Deseja continuar [S] ou [N]: "))
+                    while True:
+                        continuar= str(input("Deseja continuar [S] ou [N]: ")).upper()
+                        if continuar in 'SN':
+                            break
                     if continuar in 'Nn':
                         break
         
@@ -91,7 +100,10 @@ def jogar():
                     print (f"Voce precisou de {tent} tentativas para acertar " )
                     tent = 0
                     computador = randint(0,100)
-                    continuar= str(input("Deseja continuar [S] ou [N]: "))
+                    while True:
+                        continuar= str(input("Deseja continuar [S] ou [N]: ")).upper()
+                        if continuar in 'SN':
+                            break
                     if continuar in 'Nn':
                         break
         
